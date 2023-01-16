@@ -1,2 +1,2 @@
 # Askja-Radar-Loss
-Calculation of the loss rate from radargrams collected by a GSSI ground-penetrating radar system
+Code used in Shoemaker et al. to determine the loss rate of averages of radargram traces collected using a Geophysical Survey System Inc. ground-penetrating radar.
