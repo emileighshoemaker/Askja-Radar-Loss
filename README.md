@@ -41,3 +41,12 @@ eps_3 =
 
 # Outputs
 The script outputs a series of quantities and plots the average trace, corrected trace, and linear least-squares fit to the range of depths specified by inputs from the User.
+
+Output Quantities:
+slope: The slope of the linear least-squares fit over the depth range specified by the User
+p-value: The p-value for a hypothesis test whose null hypothesis is that the slope is zero, using Wald Test with t-distribution of the test statistic
+r-value: Pearson correlation coefficient
+r-squared: Coefficient of determination
+tand: The loss tangent calculated from the slope, the wavelength in the media, and other constants
+Q: The inverse of the loss tangent (also called the "Quality Factor")
+variance in slope: The variance in a series of slopes estimated for averages of ten traces across the User-specified range of trances for the full average trace
