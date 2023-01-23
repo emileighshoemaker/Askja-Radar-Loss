@@ -1,6 +1,8 @@
 # Askja-Radar-Loss
 Code used in Shoemaker et al. to determine the loss rate of averages of radargram traces collected using a Geophysical Survey System Inc. ground-penetrating radar.
 
+[![DOI](https://zenodo.org/badge/589766754.svg)](https://zenodo.org/badge/latestdoi/589766754)
+
 # Dependencies
 Our attenuation code is dependent upon two other Python software packages that must be installed prior to running the script.
 1. Readgssi - This sofrware is necessary in order to open and read in Geophysical Survey Systems Inc. (GSSI) ground-penetrating radar files. This software package is available for download at: https://github.com/iannesbitt/readgssi.
